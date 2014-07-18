@@ -936,7 +936,7 @@ vertical-align: middle;
 :-ms-input-placeholder {  
    color: #000;
 }
-@media (min-width: 20px) and (max-width: 520px) {
+@media (min-width: 20px) and (max-width: 620px) {
 	.form-inline .form-group {
 		width: 110%;
 	}
