@@ -920,8 +920,35 @@ width: 100%;
 vertical-align: middle;
 }
 #socialShare{
-
 	display:none;
 	margin-top: 10px;
 	text-align: center;
-			}
+}
+::-webkit-input-placeholder {
+	color: #000;
+}
+:-moz-placeholder { /* Firefox 18- */
+   color: #000;
+}
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #000;
+}
+:-ms-input-placeholder {  
+   color: #000;
+}
+@media (min-width: 20px) and (max-width: 520px) {
+	.form-inline .form-group {
+		width: 110%;
+	}
+	.tp-caption.large_text {
+		top: 186px !important;
+	}
+	.tp-caption.very_large_text {
+		top: 138px !important;
+	}
+	.tp-caption.small_text {
+		display: none;
+	}
+
+
+}
