@@ -1,6 +1,9 @@
-
+		var $ = jQuery.noConflict();
 
 		$(document).ready(init);
+
+
+
 		function init(){
 
 			getCountry();
