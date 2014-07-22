@@ -944,7 +944,7 @@ vertical-align: middle;
 		top: 186px !important;
 	}
 	.tp-caption.very_large_text {
-		top: 138px !important;
+		top: 130px !important;
 	}
 	.tp-caption.small_text {
 		display: none;
@@ -952,3 +952,19 @@ vertical-align: middle;
 
 
 }
+/*@media (min-width: 20px) and (orientation: landscape) {
+	.form-inline .form-group {
+		width: 110%;
+	}
+	.tp-caption.large_text {
+		top: 156px !important;
+	}
+	.tp-caption.very_large_text {
+		top: 118px !important;
+	}
+	.tp-caption.small_text {
+		display: none;
+	}
+
+
+}*/
