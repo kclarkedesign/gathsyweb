@@ -10,17 +10,21 @@
 		}
 
 	*/
-		function addBeta(){
+		function betaSignup(){
 			if($('#form-email').val() =="" || $('#form-email').val().indexOf("@")==-1){
 
 				alert("Please use a valid e-mail");
 				return;
 			}
-			$('#sendBut').val("Applying...");
+			email = $('#form-email').val();
+
+				$('#sendBut').val("Applying...");
+
 			$.ajax({
-				"url":'/cloud/api/beta/',
-				'data':{'email':$('#form-email').val(),
-						'action':'signup'},
+				  url:"/cloud/api/beta?email="+email +"&action=signup",
+				'data':{
+					"email":email
+				},
 				complete:function(transport){
 
 					$('#socialShare').fadeIn();
