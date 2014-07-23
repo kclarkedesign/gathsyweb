@@ -120,7 +120,7 @@
             <div class="col-sm-12 animated out" data-animation="fadeInRight" data-delay="0">
               <div class="about-box">
                 <div class="iconic"> <i class="icon-user2"></i> </div>
-                <form name="newsletter-form" id="newsletter-form" action="javascript:addBeta(); finished()" method="POST" class="form-inline base4 ng-pristine ng-valid">
+                <form name="newsletter-form" id="newsletter-form" action="javascript:betaSignup(); finished()" method="POST" class="form-inline base4 ng-pristine ng-valid">
             <div class="slider"><div class="form-group">
               <label class="sr-only" for="exampleInputEmail2">Email address</label>
               <input type="email" class="form-control form-email-error ng-pristine ng-untouched ng-valid ng-valid-email" name="newsletter[form-email]" id="form-email" ng-model="yourName" placeholder="Your email address">
@@ -283,10 +283,6 @@
 
   function finished() {
     alert ("You have been added!")
-
-  }
-  function contactUs() {
-    alert ("You message has been sent!")
 
   }
 
