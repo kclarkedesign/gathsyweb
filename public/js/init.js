@@ -4,12 +4,12 @@
 
 
 
-		function init(){
+	/*	function init(){
 
 			getCountry();
 		}
 
-
+	*/
 		function addBeta(){
 			if($('#form-email').val() =="" || $('#form-email').val().indexOf("@")==-1){
 
@@ -36,7 +36,7 @@
 		}
 
 
-		function addFeedback(){
+	/*	function addFeedback(){
 
 			if($('#form-message').val() =="" || $('#form-subject').val().indexOf("@")==-1){
 
@@ -63,9 +63,9 @@
 				}
 			})
 		}
+*/
 
-
-		function getCountry(){
+		/* function getCountry(){
 			$.ajax({
 				"url":'/cloud/api/settings/',
 				'data':{
@@ -94,4 +94,4 @@
 				}
 			})
 
-		}
+		}*/
