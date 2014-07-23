@@ -22,7 +22,7 @@
 
 			$.ajax({
 				  url:"/cloud/api/beta?email="+email +"&action=signup",
-				'data':{
+				  data:{
 					"email":email
 				},
 				complete:function(transport){
