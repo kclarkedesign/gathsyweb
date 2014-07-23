@@ -18,9 +18,9 @@
 			}
 			$('#sendBut').val("Applying...");
 			$.ajax({
-				"url":'/cloud/api/settings/',
+				"url":'/cloud/api/beta/',
 				'data':{'email':$('#form-email').val(),
-						'action':'addBeta'},
+						'action':'signup'},
 				complete:function(transport){
 
 					$('#socialShare').fadeIn();
